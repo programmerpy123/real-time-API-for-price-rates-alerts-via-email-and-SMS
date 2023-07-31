@@ -12,7 +12,7 @@ rules = {
     },
     'notification':{
         'enable': True,
-        'receiver': '09331374491',
+        'receiver': '09021819682',
         'preferred': {
             'BTC': {
                 'min': 3.74e-05,

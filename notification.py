@@ -7,7 +7,7 @@ def send_notification(text):
     try:
         api = KavenegarAPI(kavenegar_api_key)
         params = {
-            'sender': '10004346',
+            'sender': '10008663',
             'receptor': config.rules["notification"]["receiver"],
             'message': text
         }
