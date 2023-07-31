@@ -1,12 +1,14 @@
 import smtplib
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
+from local_settings import Smtp_password
+
 
 def send_smtp_email(subject,rates):
     smtp_server = 'smtp.gmail.com'
     smtp_port = 587
     smtp_username = 'testdjangosendemail79@gmail.com'
-    smtp_password = 'stptdptpcpizbfdz'
+    smtp_password = Smtp_password
 
     # Set up the email message
     msg = MIMEMultipart()
